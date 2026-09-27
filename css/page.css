@@ -30,7 +30,7 @@
 /* Change --bg-color to change the sites background. */
 
 :root {
-    --theme-color: darkorange;
+    --theme-color: #ff6600;
     --bg-color: white;
 }
 
@@ -175,7 +175,7 @@ header img {
 }
 
 .button {
-	border: 4px solid darkorange;
+	border: 4px solid var(--theme-color);
 	border-radius: 12px;
 	color: white;
 	padding: 20px 40px;
@@ -185,11 +185,11 @@ header img {
 	font-size: 60px;
 	margin: 4px 2px;
 	cursor: pointer;
-	background-color: darkorange;
+	background-color: var(--theme-color);
 	transition-duration: 0.4s;
 }
 
 .button:hover {
 	background-color: white;
-	color: darkorange;
+	color: var(--theme-color);
 }
